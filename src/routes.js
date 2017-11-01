@@ -7,7 +7,7 @@ import {
 
 export default () => {
   return (
-    <Route path="/app" component={App}>
+    <Route path="/" component={App}>
       <Route path="*" component={NotFound} status={404} />
     </Route>
   );
